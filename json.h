@@ -23,6 +23,10 @@ public:
      int interval;
 
 
+     QVariantMap getOtherplayers() const;
+     QVariantMap getWals() const;
+     QJsonObject getPlayerpos() const;
+     QJsonArray getMap() const;
 };
 
 #endif // JSON_H

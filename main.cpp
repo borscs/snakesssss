@@ -7,6 +7,7 @@
 #include <QDebug>
 
 #include "json.h"
+#include "moving.h"
 
 int main(int argc, char *argv[])
 {
@@ -37,12 +38,15 @@ int main(int argc, char *argv[])
     bool go=true;
     int distVal = 0;
     Json json;
+    Moving moving;
     while(go){
         json.read();
         //std::getline(std::cin,temp);
-        if(dist(engine)==0){
-            distVal = dist(engine);
-        }
+       int hlper=distVal;
+       distVal = moving.wherego(json.getMap(), json.getOtherplayers(), json.getPlayerpos(), json.getWals(), hlper);
+//        if(dist(engine)==0){
+//            distVal = dist(engine);
+//        }
         switch (distVal) {
         case 0: {
             std::cout <<R"({"dir": "RIGHT"})" << std::endl;
@@ -67,4 +71,3 @@ int main(int argc, char *argv[])
 
     return app.exec();
 }
-

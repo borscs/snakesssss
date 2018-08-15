@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="snakessss"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/borscs/Dokumentumok/opswat/snakesssssssssssss/snakessss/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/borscs/Dokumentumok/opswat/snakesssssssssssss/snakessss/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/borscs/Dokumentumok/opswat/snakesssssssssssss/snakessss/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/borscs/Dokumentumok/opswat/snakesssssssssssss/snakessss/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/borscs/Dokumentumok/opswat/snakesssssssssssss/snakessss/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/borscs/Dokumentumok/opswat/snakesssssssssssss/snakessss/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/borscs/Dokumentumok/opswat/snakesssssssssssss/snakessss/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/borscs/Dokumentumok/opswat/snakesssssssssssss/snakessss/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/borscs/Dokumentumok/opswat/snakesssssssssssss/snakessss/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/borscs/Dokumentumok/opswat/snakesssssssssssss/snakessss/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/borscs/Dokumentumok/opswat/snakesssssssssssss/snakessss/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/borscs/Dokumentumok/opswat/snakesssssssssssss/snakessss/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/borscs/Dokumentumok/opswat/snakesssssssssssss/snakessss/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/borscs/Dokumentumok/opswat/snakesssssssssssss/snakessss/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/borscs/Dokumentumok/opswat/snakesssssssssssss/snakessss/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="snakessss">
+				<Option output="/home/borscs/Dokumentumok/opswat/snakesssssssssssss/snakessss/cmake-build-debug/snakessss" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/borscs/Dokumentumok/opswat/snakesssssssssssss/snakessss/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/borscs/Dokumentumok/opswat/snakesssssssssssss/snakessss/cmake-build-debug"/>
+					<Add directory="/home/borscs/Dokumentumok/opswat/snakesssssssssssss/snakessss"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/borscs/Dokumentumok/opswat/snakesssssssssssss/snakessss/cmake-build-debug/Makefile&quot;  VERBOSE=1 snakessss"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/borscs/Dokumentumok/opswat/snakesssssssssssss/snakessss/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/borscs/Dokumentumok/opswat/snakesssssssssssss/snakessss/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/borscs/Dokumentumok/opswat/snakesssssssssssss/snakessss/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="snakessss/fast">
+				<Option output="/home/borscs/Dokumentumok/opswat/snakesssssssssssss/snakessss/cmake-build-debug/snakessss" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/borscs/Dokumentumok/opswat/snakesssssssssssss/snakessss/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/borscs/Dokumentumok/opswat/snakesssssssssssss/snakessss/cmake-build-debug"/>
+					<Add directory="/home/borscs/Dokumentumok/opswat/snakesssssssssssss/snakessss"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/borscs/Dokumentumok/opswat/snakesssssssssssss/snakessss/cmake-build-debug/Makefile&quot;  VERBOSE=1 snakessss/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/borscs/Dokumentumok/opswat/snakesssssssssssss/snakessss/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/borscs/Dokumentumok/opswat/snakesssssssssssss/snakessss/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/borscs/Dokumentumok/opswat/snakesssssssssssss/snakessss/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/borscs/Dokumentumok/opswat/snakesssssssssssss/snakessss/json.cpp">
+			<Option target="snakessss"/>
+		</Unit>
+		<Unit filename="/home/borscs/Dokumentumok/opswat/snakesssssssssssss/snakessss/json.h">
+			<Option target="snakessss"/>
+		</Unit>
+		<Unit filename="/home/borscs/Dokumentumok/opswat/snakesssssssssssss/snakessss/main.cpp">
+			<Option target="snakessss"/>
+		</Unit>
+		<Unit filename="/home/borscs/Dokumentumok/opswat/snakesssssssssssss/snakessss/moving.cpp">
+			<Option target="snakessss"/>
+		</Unit>
+		<Unit filename="/home/borscs/Dokumentumok/opswat/snakesssssssssssss/snakessss/moving.h">
+			<Option target="snakessss"/>
+		</Unit>
+		<Unit filename="/home/borscs/Dokumentumok/opswat/snakesssssssssssss/snakessss/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

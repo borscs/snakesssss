@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/snakessss.dir/main.cpp.o CMakeFiles/snakessss.dir/json.cpp.o CMakeFiles/snakessss.dir/moving.cpp.o  -o snakessss -lQt5::Core 
