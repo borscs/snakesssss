@@ -3,6 +3,10 @@
 
 #include <QCoreApplication>
 #include <QCommandLineParser>
+#include <QTextStream>
+#include <QDebug>
+
+#include "json.h"
 
 int main(int argc, char *argv[])
 {
@@ -29,34 +33,38 @@ int main(int argc, char *argv[])
     std::uniform_int_distribution<int> dist(0,3);
     std::string temp;
 
+
     bool go=true;
     int distVal = 0;
+    Json json;
     while(go){
-        std::getline(std::cin,temp);
-
+        json.read();
+        //std::getline(std::cin,temp);
         if(dist(engine)==0){
             distVal = dist(engine);
         }
         switch (distVal) {
-            case 0: {
-                std::cout <<R"({"dir": "RIGHT"})" << std::endl;
-                break;
-            }
-            case 1: {
-                std::cout <<R"({"dir": "LEFT"})" << std::endl;
-                break;
-            }
-            case 2:{
-                std::cout <<R"({"dir": "UP"})" << std::endl;
-                break;
-            }
-            case 3:{
-                std::cout <<R"({"dir": "DOWN"})" << std::endl;
-                break;
-            }
+        case 0: {
+            std::cout <<R"({"dir": "RIGHT"})" << std::endl;
+            break;
         }
-    }
+        case 1: {
+            std::cout <<R"({"dir": "LEFT"})" << std::endl;
+            break;
+        }
+        case 2:{
+            std::cout <<R"({"dir": "UP"})" << std::endl;
+            break;
+        }
+        case 3:{
+            std::cout <<R"({"dir": "DOWN"})" << std::endl;
+            break;
+        }
+        }
 
+
+    }
 
     return app.exec();
 }
+
